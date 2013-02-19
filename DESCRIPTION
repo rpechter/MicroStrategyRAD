@@ -1,0 +1,18 @@
+Package: MicroStrategyRADpackage
+Type: Package
+Title: MicroStrategy R Analytic Deployment Package
+Author: Rick Pechter <rpechter@microstrategy.com>
+Maintainer: Rick Pechter <rpechter@microstrategy.com>
+Depends:
+    R (>= 2.10.0)
+Description: Deploys your R Analytc to MicroStrategy
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: http://MRIP.codeplex.com
+Authors@R: c(person(given="Rick", family="Pechter",
+    email="rpechter@microstrategy.com", role=c("aut", "cre")))
+Version: 0.01-1
+Date: 2013-02-15
+Collate:
+    'MicroStrategyRAD.R'
